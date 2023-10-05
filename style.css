@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f30909; /* Background color when not scrolled */
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #00ccff; /* Font color when not hovered */
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff5722; /* Font color when hovered */
+}
+
+/* Change the background color on scroll */
+.scroll {
+    background-color: #ff5722 !important; /* Background color when scrolled */
+}
+
+/* Additional CSS styling for sports information */
+.sport-info {
+    margin: 100px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-size: cover; /* Ensure the background image covers the entire section */
+    color: #000000; /* Font color for the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
+}
+
+.sport-info h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sport-info p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Background images for each sports section */
+#volleyball {
+    background-image: url('c:\Users\kushw\Downloads\vollyball.jpg.jpg');
+}
+
+#football {
+    background-image: url('c:\Users\kushw\Downloads\connor-coyne-OgqWLzWRSaI-unsplash.jpg');
+}
+
+#basketball {
+    background-image: url('c:\Users\kushw\Downloads\basketball.jpg.jpg');
+}
+
+#tennis {
+    background-image: url('c:\Users\kushw\Downloads\moises-alex-WqI-PbYugn4-unsplash.jpg');
+}
+
+#cricket {
+    background-image: url('c:\Users\kushw\Downloads\cricket.jpg.jpg');
+}
